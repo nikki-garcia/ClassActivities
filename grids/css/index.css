@@ -1,0 +1,65 @@
+.grid1 {
+ display: grid;
+ height:500px;
+ grid-template-rows: repeat(3, 1fr);
+ grid-template-columns: 1fr 2fr;
+ grid-template-areas: "leftBar content";
+}
+.leftBar {
+ grid-area: leftBar;
+}
+.content {
+ grid-area: content;
+}
+
+
+.grid2 {
+  display: grid;
+  height:500px;
+  grid-template-rows: repeat(3, 1fr)s;
+  grid-template-columns: auto 0;
+  grid-template-areas: "column1 column2 column3";
+}
+
+.column1 {
+ grid-area: column1;
+}
+.column2 {
+ grid-area: column2;
+}
+.column3 {
+ grid-area: column3;
+}
+
+
+
+.grid3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "header" "Hero" "leftContent rightContent" "footer";
+}
+.header {
+ grid-area: header;
+}
+.heroImg {
+ grid-area: heroImg;
+}
+.leftContent {
+ grid-area: leftContent;
+}
+.rightContent {
+ grid-area: rightContent;
+}
+.footer {
+ grid-area: footer;
+}
+
+.gridChild {
+  background-color: lightgrey;
+  border: 1px solid blue;
+  min-height: 250px;
+}
+.spacing {
+  margin:25px 0px;
+}
