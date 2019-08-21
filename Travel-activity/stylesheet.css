@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+}
+
+
+.navbar a{
+    color: pink !important;
+}
+
+.display-4{
+    color: white;
+
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.jumtxt{
+    padding-top: 20% !important;
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron{
+    height: calc(100vh - 25px);
+    background-image: url("../Travel-activity/images/header\ image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.customNav{
+
+}

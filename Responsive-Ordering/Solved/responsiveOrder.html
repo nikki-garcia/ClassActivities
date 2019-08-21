@@ -1,0 +1,68 @@
+<!-- Responsive Order -->
+<!-- Goal: To demonstrate Bootstrap's responsive ordering classes. -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <!-- Style -->
+  <style>
+
+    .card {
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1 class="text-center">Responsive Ordering</h1>
+
+  <div class="container">
+  <div class="row">
+
+    <div class="col-6 order-4 order-sm-3 order-md-2 order-lg-1">
+      <div style="background-color: #A3008F" class="card">
+        <div class="card-body">
+          <h1>A</h1>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 order-1 order-sm-4 order-md-3 order-lg-2">
+        <div style="background-color: #D10043" class="card">
+            <div class="card-body">
+              <h1>B</h1>
+            </div>
+          </div>
+    </div>
+    <div class="col-6 order-2 order-sm-1 order-md-4 order-lg-3">
+        <div style="background-color: #56069F" class="card">
+            <div class="card-body">
+              <h1>C</h1>
+            </div>
+          </div>
+    </div>
+    <div class="col-6 order-3 order-sm-2 order-md-1 order-lg-4">
+        <div style="background-color: #B4E200" class="card">
+            <div class="card-body">
+              <h1>D</h1>
+            </div>
+          </div>
+    </div>
+
+  </div>
+</div>
+</body>
+
+</html>
