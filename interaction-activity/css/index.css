@@ -1,0 +1,15 @@
+.plus_minus {
+  float: right;
+}
+.toggleContainer {
+  padding: 15px;
+  display: none;
+  transition: all;
+}
+.active {
+  display: block;
+}
+.w3-ul {
+  cursor: pointer;
+} 
+

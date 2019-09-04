@@ -1,13 +1,18 @@
 // .on event listener documentation - https://api.jquery.com/on/#on-events-selector-data-handler
+$("#submit").click(function(){
+    console.log("pizza");
+});
+
+
 
 // Step 1: Hide a div
-$("button1").on("hideMe", function(slideToggle){
-
+$("#button1").on("click", function(){
+    $('.hideMe').slideToggle()
 });
 
 // Step 2: Change a color
 $('#button2').on("click", function(){
-    $('.cssChange').css("background-color","red");
+    $('.cssChange').css("background-color", "red");
 });
 
 // Step 3: Append content
